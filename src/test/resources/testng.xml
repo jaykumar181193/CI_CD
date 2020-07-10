@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1" >
+    <listeners>
+        <listener class-name="ExtentListeners" />
+    </listeners>
+    <test name="Chrome Test Scenario">
+        <parameter name="browserType" value="chrome" />
+        <classes>
+            <class name="FlipkartTest" />
+        </classes>
+    </test>
+    <test name="Firefox Test Scenario">
+        <parameter name="browserType" value="firefox" />
+        <classes>
+            <class name="FlipkartTest" />
+        </classes>
+    </test>
+</suite>
