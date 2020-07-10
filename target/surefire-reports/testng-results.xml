@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="97553" started-at="2020-07-10T19:09:21 IST" finished-at="2020-07-10T19:10:58 IST">
+    <groups>
+    </groups>
+    <test name="Chrome Test Scenario" duration-ms="46649" started-at="2020-07-10T19:09:21 IST" finished-at="2020-07-10T19:10:07 IST">
+      <class name="FlipkartTest">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:FlipkartTest@3ffcd140]" name="initiateBrowser" is-config="true" duration-ms="12411" started-at="2020-07-10T19:09:21 IST" finished-at="2020-07-10T19:09:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="FlipkartScenario()[pri:0, instance:FlipkartTest@3ffcd140]" name="FlipkartScenario" duration-ms="33593" started-at="2020-07-10T19:09:33 IST" finished-at="2020-07-10T19:10:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkartScenario -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:FlipkartTest@3ffcd140]" name="closeBrowser" is-config="true" duration-ms="622" started-at="2020-07-10T19:10:07 IST" finished-at="2020-07-10T19:10:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- FlipkartTest -->
+    </test> <!-- Chrome Test Scenario -->
+    <test name="Firefox Test Scenario" duration-ms="50555" started-at="2020-07-10T19:10:08 IST" finished-at="2020-07-10T19:10:58 IST">
+      <class name="FlipkartTest">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:FlipkartTest@59717824]" name="initiateBrowser" is-config="true" duration-ms="15356" started-at="2020-07-10T19:10:08 IST" finished-at="2020-07-10T19:10:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="FlipkartScenario()[pri:0, instance:FlipkartTest@59717824]" name="FlipkartScenario" duration-ms="28223" started-at="2020-07-10T19:10:23 IST" finished-at="2020-07-10T19:10:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkartScenario -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:FlipkartTest@59717824]" name="closeBrowser" is-config="true" duration-ms="6975" started-at="2020-07-10T19:10:51 IST" finished-at="2020-07-10T19:10:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- FlipkartTest -->
+    </test> <!-- Firefox Test Scenario -->
+  </suite> <!-- Test Suite -->
+</testng-results>
