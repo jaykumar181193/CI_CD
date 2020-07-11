@@ -5,7 +5,7 @@
     <listener class-name="ExtentListeners"/>
   </listeners>
   <test thread-count="5" verbose="0" name="Chrome Test Scenario(failed)">
-    <parameter name="browserType" value="firefox"/>
+    <parameter name="browserType" value="chrome"/>
     <classes>
       <class name="FlipkartTest">
         <methods>
@@ -17,7 +17,7 @@
     </classes>
   </test> <!-- Chrome Test Scenario(failed) -->
   <test thread-count="5" verbose="0" name="Firefox Test Scenario(failed)">
-    <parameter name="browserType" value="chrome"/>
+    <parameter name="browserType" value="firefox"/>
     <classes>
       <class name="FlipkartTest">
         <methods>

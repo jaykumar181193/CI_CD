@@ -1,0 +1,4 @@
+This is the first line in Doc1
+This is created by Jay Radadiya
+This is done to practice GIT concepts
+This is the last and final sentence in this Doc
