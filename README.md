@@ -6,7 +6,3 @@
 * Extent Reports - For generating reports
 * Log4j - For console logs
 
-
-
- 
-"# CI_CD" 
