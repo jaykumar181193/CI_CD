@@ -1,0 +1,4 @@
+This is the first line in Doc2
+This is created by Dimple Radadiya
+This is done to practice GIT and GITHUB concepts
+This is the last and final sentence in Doc2
