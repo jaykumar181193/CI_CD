@@ -1,1 +1,2 @@
-This is first line commiteed
+This is first line commited.
+This is second line
